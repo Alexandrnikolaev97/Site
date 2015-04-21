@@ -1,11 +1,11 @@
 <html>
 	<head>
-		<title> прикинь </title>
+		<title> connection CSS </title>
 		<link rel="stylesheet" type ="text/css" href="style.css">
 		<meta charset = "utf-8">
 	</head>
 	
-	<body background ="images/fon0.jpg" bgcolor ="pink">
+	<body>
 		<a name="top"></a>
 		<a href="#bottom"> to bottom!</a>
 		
@@ -24,14 +24,51 @@
 		<br>
 		<a href ="http://ru.wikipedia.org" target="_blank" title ="go na wiki"> ru wiki on new page</a>
 		<br>
-		<a href="https://vk.com/madness_mimr" target="_blank">
-		<img src="images/Lesha.jpg"  alt="pi+1" 
-		align="left" width = 300 height = 300>
-		</a>
-		прикинь это написано здесь<br> 
-		здесь!!!!!!<br>
-		Lesha.JPG (300x300)<br clear="all">
-		а это здесь!!!<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		
 		<a href="#top">to top! </a>
 		<a name ="bottom"></a>
 		

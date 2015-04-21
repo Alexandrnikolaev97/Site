@@ -1,12 +1,20 @@
-body
+a.Top_link
 {
-	background: blue;
-	color: white;
+	text-decoration: none;
+	font-family: "VERDANA";
+	margin-top: 5em;
 }
 
-h1{color: red;}
-h2{color: yellow;}
-p{color:black;}
-#p1{color:pink;}
-.pc1{color:green;}
-a{color:red;}
+div.Top_div
+{
+	background:#FFFFFF;
+	border-bottom: 1px solid #CCCCCC;
+	margin:0;
+	padding-left: 12.5em;
+}
+
+body.standart_body
+{
+	background:#EEEEEE;
+	margin:0;
+}
