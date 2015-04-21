@@ -1,0 +1,12 @@
+body
+{
+	background: blue;
+	color: white;
+}
+
+h1{color: red;}
+h2{color: yellow;}
+p{color:black;}
+#p1{color:pink;}
+.pc1{color:green;}
+a{color:red;}
