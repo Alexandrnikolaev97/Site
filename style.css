@@ -4,20 +4,58 @@ a.Top_link
 	font-family: "VERDANA";
 	margin-left: 5em;
 	color :black;
+	font-weight: lighter;
 }
 
+a.VK_Link
+{
+	text-decoration: none;
+	font-family: "VERDANA";
+	color :#000000;
+	target:_blank;
+	font-weight: lighter;
+	margin-left:3em;
+}
+
+a:hover{color:red};
 
 div.Top_div
 {
 	background:#FFFFFF;
-	border-bottom: 1px solid #CCCCCC;
 	padding-left: 7.5em;
 	padding-top:0.75em;
-	
 }
 
 body.standart_body
 {
 	background:#EEEEEE;
 	margin:0;
+}
+
+div.Zagolovok
+{
+	font-family: "VERDANA";
+	margin-bottom: 5em;
+	margin-top : 3em;
+	margin-left: 1.5em;
+	font-size:  22pt;
+	font-weight: lighter;
+}
+div.main
+{
+	background:#FFFFFF;
+	border:1px solid #EEEEEE;
+	margin-top:1em;
+	padding-left:15em;
+	padding-bottom:15em;
+}
+
+div.under_write
+{
+	margin-top:2em;
+	margin-right: 10em;
+	font-family: "VERDANA";
+	font-size: 10pt;
+	text-align :right;
+	color: #888888;
 }
