@@ -1,17 +1,21 @@
 a.Top_link{
 	text-decoration: none;
 	font-family: "VERDANA";
+	font-size: 16pt;
 	color :black;
 }
 
 div.Top_link_container{
-	padding-left: 2em;
-	padding-right: 2em;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding: 1em 2em;
 	border: 1px solid #CCCCCC;
 	margin: 0;
 	text-align: center;
+}
+
+IMG.article_img{
+	height: 13.5em;
+	float: left;
+	margin: 0;
 }
 
 #Top_div{
@@ -22,25 +26,64 @@ div.Top_link_container{
 	
 }
 
+#body_div{
+	vertical-align: top;
+	margin: 0em 3em;
+	background: #EEEEEE;
+	padding: 0 1em;
+}
+
+#block1, #block2, #block3{
+	vertical-align: top;
+    padding: 1em 2em 20000px 2em;
+    margin-bottom: -20000px;
+    min-height: 200px;
+    height: 100%;
+    text-color: #EEEEEE;
+}
+
+#block1{
+	background: #FF8000;
+}
+
+#block2{
+	background: #22DD33;
+}
+
+
+#block3{
+	background: #EEFFEE;
+}
+
 #logotype{
 	padding-left: 2em;
 }
 
 body{
 	background:#EEEEEE;
-	margin:0;
+	margin: 0;
+	padding: 0;
 }
 
 table{
 	width: 100%;
 	margin: 0;
 	padding: 0;
+	vertical-align: top;
+	font-family: "VERDANA";
 }
 td{
 	margin: 0;
 	padding: 0;
+	vertical-align: top;
 }
 tr{
 	margin:0;
 	padding: 0;
+	vertical-align: top;
+}
+
+td.article_block{
+	margin: 4px 5px 3px 5px;
+	overflow: hidden;
 }
