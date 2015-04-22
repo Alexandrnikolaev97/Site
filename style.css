@@ -1,8 +1,7 @@
-a.Top_link
-{
+a.Top_link{
 	text-decoration: none;
 	font-family: "VERDANA";
-	margin-left: 5em;
+	font-size: 16pt;
 	color :black;
 	font-weight: lighter;
 }
@@ -18,16 +17,78 @@ a.VK_Link
 
 a:hover{color:red};
 
-div.Top_div
-{
+div.Top_link_container{
+	padding: 1em 2em;
+	border: 1px solid #CCCCCC;
+	margin: 0;
+	text-align: center;
+}
+
+IMG.article_img{
+	height: 13.5em;
+	float: left;
+	margin: 0;
+}
+
+#Top_div{
+	margin: 0;
 	background:#FFFFFF;
-	padding-left: 7.5em;
+	border-bottom: 1px double #CCCCCC;
 	padding-top:0.75em;
 }
 
-body.standart_body
-{
+#body_div{
+	vertical-align: top;
+	margin: 0em 3em;
+	background: #EEEEEE;
+	padding: 0 1em;
+}
+
+#block1, #block2, #block3{
+	vertical-align: top;
+    padding: 1em 2em 20000px 2em;
+    margin-bottom: -20000px;
+    min-height: 200px;
+    height: 100%;
+    text-color: #EEEEEE;
+}
+
+#block1{
+	background: #FF8000;
+}
+
+#block2{
+	background: #22DD33;
+}
+
+
+#block3{
+	background: #EEFFEE;
+}
+
+#logotype{
+	padding-left: 2em;
+}
+
+body{
 	background:#EEEEEE;
+	margin: 0;
+	padding: 0;
+}
+
+table{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	font-family: "VERDANA";
+}
+td{
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+tr{
 	margin:0;
 }
 
@@ -57,4 +118,11 @@ div.under_write
 	font-size: 10pt;
 	text-align :right;
 	color: #888888;
+	padding: 0;
+	vertical-align: top;
+}
+
+td.article_block{
+	margin: 4px 5px 3px 5px;
+	overflow: hidden;
 }
