@@ -1,23 +1,46 @@
-a.Top_link
-{
+a.Top_link{
 	text-decoration: none;
 	font-family: "VERDANA";
-	margin-left: 5em;
 	color :black;
 }
 
+div.Top_link_container{
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border: 1px solid #CCCCCC;
+	margin: 0;
+	text-align: center;
+}
 
-div.Top_div
-{
+#Top_div{
+	margin: 0;
 	background:#FFFFFF;
-	border-bottom: 1px solid #CCCCCC;
-	padding-left: 7.5em;
+	border-bottom: 1px double #CCCCCC;
 	padding-top:0.75em;
 	
 }
 
-body.standart_body
-{
+#logotype{
+	padding-left: 2em;
+}
+
+body{
 	background:#EEEEEE;
 	margin:0;
+}
+
+table{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+td{
+	margin: 0;
+	padding: 0;
+}
+tr{
+	margin:0;
+	padding: 0;
 }
