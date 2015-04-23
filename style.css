@@ -26,9 +26,9 @@ div.Top_link_container{
 }
 
 .article_block{
-	margin: 1em 1em 0em 1em;
-	border: 0.35em solid white;
+	margin: 1em 1em -20000px 1em;
 	overflow: hidden;
+	padding-bottom: 20000px;
 }
 
 IMG.article_img{
@@ -53,24 +53,24 @@ IMG.article_img{
 
 #block1, #block2, #block3{
 	vertical-align: top;
-    padding: 1em 2em 20000px 2em;
-    margin-bottom: -20000px;
+    padding: 1em 2em 2000px 2em;
+	margin-bottom: -2000px;
     min-height: 200px;
     height: 100%;
     text-color: #EEEEEE;
 }
 
 #block1{
-	background: #FF8000;
+	background: #FFFF00;
 }
 
 #block2{
-	background: #22DD33;
+	background: #20FF33;
 }
 
 
 #block3{
-	background: #EEFFEE;
+	background: #70E0FF;
 }
 
 #logotype{
@@ -94,6 +94,7 @@ td{
 	margin: 0;
 	padding: 0;
 	vertical-align: top;
+	overflow: hidden;
 }
 tr{
 	margin:0;
