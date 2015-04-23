@@ -2,7 +2,7 @@ a.Top_link{
 	text-decoration: none;
 	font-family: "VERDANA";
 	font-size: 16pt;
-	color :black;
+	color: black;
 	font-weight: lighter;
 }
 
@@ -17,9 +17,11 @@ a.VK_Link
 
 a:hover{color:red};
 
-div.Top_link_container{
+.Top_link_container{
 	padding: 1em 2em;
+	margin: 1em 2em;
 	border: 1px solid #CCCCCC;
+	align:center;
 	margin: 0;
 	text-align: center;
 }
