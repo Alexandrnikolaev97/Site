@@ -1,6 +1,6 @@
 a.Top_link{
 	text-decoration: none;
-	font-family: "VERDANA";
+	font-family: "IMPACT";
 	font-size: 16pt;
 	color: black;
 	font-weight: lighter;
@@ -15,15 +15,20 @@ a.VK_Link
 	margin-left:3em;
 }
 
-a:hover{color:red};
+a:hover{color:red;}
 
-.Top_link_container{
+div.Top_link_container{
 	padding: 1em 2em;
 	margin: 1em 2em;
-	border: 1px solid #CCCCCC;
 	align:center;
 	margin: 0;
 	text-align: center;
+}
+
+.article_block{
+	margin: 1em 1em 0em 1em;
+	border: 0.35em solid white;
+	overflow: hidden;
 }
 
 IMG.article_img{
@@ -124,7 +129,3 @@ div.under_write
 	vertical-align: top;
 }
 
-td.article_block{
-	margin: 4px 5px 3px 5px;
-	overflow: hidden;
-}
