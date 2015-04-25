@@ -4,6 +4,32 @@ a.Top_link{
 	font-size: 18pt;
 	color: black;
 	font-weight: lighter;
+	overflow: hidden;
+}
+
+div.Top_link_content{
+	padding: 0.7em 2em 10em 2em;
+	margin-bottom: -10em;
+}
+
+a.Top_link:hover{
+	color: black;
+}
+
+a.Top_link:hover div.Top_link_content{
+	background: #CCCCCC;
+}
+
+#current_href{
+
+}
+
+#current_href div.Top_link_content{
+	background: #CFCFEA;
+}
+
+#current_href:hover div.Top_link_content{
+	background: #CCCCCC;
 }
 
 a.VK_Link
@@ -18,10 +44,8 @@ a.VK_Link
 a:hover{color:red;}
 
 div.Top_link_container{
-	padding: 1em 2em;
-	margin: 1em 2em;
 	align:center;
-	margin: 0;
+	margin: 0 0 0.7em 0;
 	text-align: center;
 }
 
@@ -89,10 +113,11 @@ a.contact_href{
 
 a.contact_href:hover div.contact_href_hint{
 	opacity: 0.85;
+	background: #555555;
 }
 
 a.contact_href:hover div.contact_href_img_container{
-	opacity: 0.8;
+	opacity: 0.9;
 }
 
 #us{
