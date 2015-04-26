@@ -41,8 +41,6 @@ a.VK_Link
 	margin-left:3em;
 }
 
-a:hover{color:red;}
-
 div.Top_link_container{
 	align:center;
 	margin: 0 0 0.7em 0;
@@ -53,6 +51,15 @@ div.Top_link_container{
 	margin: 1em 1em -20000px 1em;
 	overflow: hidden;
 	padding-bottom: 20000px;
+}
+
+a.article{
+	cursor: pointer;
+}
+
+a.article:hover article.block {
+	opacity: 1.0;
+	color: black;
 }
 
 IMG.article_img{
@@ -81,7 +88,8 @@ IMG.article_img{
     padding-bottom: 2000px;
 	margin-bottom: -2000px;
     min-height: 15.5em;
-    text-color: #EEEEEE;
+    color: #202029;
+	opacity: 0.93;
 }
 
 .block_content{
