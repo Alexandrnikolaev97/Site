@@ -239,9 +239,13 @@ div.page_intro{
 
 div.page_content{
 	font-family: cursive;
-	text-align: start;
+	text-align: center;
 	margin: 0.5em 1em;
 	padding: 0.5em 1em;
+}
+
+div.page_content p{
+	text-align: start;
 }
 
 div.page_content_img{
@@ -251,7 +255,12 @@ div.page_content_img{
 }
 
 div.page_content_img img{
-	width: 100%;
+	max-width: 100%;
+}
+
+div.page_ps{
+	font-size: 1.5em;
+	text-align: center;
 }
 
 div.under_write
