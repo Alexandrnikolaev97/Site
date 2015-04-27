@@ -244,6 +244,16 @@ div.page_content{
 	padding: 0.5em 1em;
 }
 
+div.page_content_img{
+	text-align: center;
+	position: relative;
+	margin: 1em 10%;
+}
+
+div.page_content_img img{
+	width: 100%;
+}
+
 div.under_write
 {
 	margin-top:2em;
