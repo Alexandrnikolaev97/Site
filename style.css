@@ -48,7 +48,7 @@ div.Top_link_container{
 }
 
 .article_block{
-	margin: 1em 1em -20000px 1em;
+	margin: 1em 0.7em -20000px 0.7em;
 	overflow: hidden;
 	padding-bottom: 20000px;
 }
@@ -80,7 +80,8 @@ IMG.article_img{
 	text-align: center;
 	margin: 0em 3em;
 	background: #EEEEEE;
-	padding: 0 1em;
+	padding: 0;
+	overflow: hidden;
 }
 
 .block{
@@ -94,6 +95,7 @@ IMG.article_img{
 
 .block_content{
 	padding: 1em 2em 1em 2em;
+	font-family: cursive;
 }
 
 #block1{
@@ -132,6 +134,12 @@ a.contact_href:hover div.contact_href_img_container{
 	margin: 0 0.2%;
 }
 
+.contact_href_container{
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
 .contact_href_content{
 	margin-bottom: -4em;
 }
@@ -159,6 +167,7 @@ IMG.contact_href_img{
 div.contacts{
 	text-align: center;
 	padding: 1em 10% 0 10%;
+	overflow: hidden;
 }
 
 .contact-tittle{
@@ -182,7 +191,7 @@ div.contacts{
 }
 
 body{
-	background:#EEEEEE;
+	background:#FFFFFF;
 	margin: 0;
 	padding: 0;
 }
@@ -204,14 +213,35 @@ tr{
 	margin:0;
 }
 
+li{
+	overflow: hidden;
+}
+
 #page_tittle
 {
-	font-family: "VERDANA";
+	font-style: normal;
+	font-variant: normal;
+	font-size: 14pt;
 	margin-bottom: 5em;
 	margin-top : 3em;
 	margin-left: 1.5em;
 	font-size:  22pt;
 	font-weight: lighter;
+}
+
+div.page_intro{
+	background: #FAFAFA;
+	font-family: cursive;
+	text-align: start;
+	margin: 0.5em 1em;
+	padding: 0.5em 1em;
+}
+
+div.page_content{
+	font-family: cursive;
+	text-align: start;
+	margin: 0.5em 1em;
+	padding: 0.5em 1em;
 }
 
 div.under_write
