@@ -55,6 +55,8 @@ div.Top_link_container{
 
 a.article{
 	cursor: pointer;
+	font-weight: lighter;
+	text-decoration: none;
 }
 
 a.article:hover article.block {
