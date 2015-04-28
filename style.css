@@ -233,12 +233,13 @@ div.page_intro{
 	background: #FAFAFA;
 	font-family: cursive;
 	text-align: start;
+	font-size: 1.1em;
 	margin: 0.5em 1em;
 	padding: 0.5em 1em;
 }
 
 div.page_content{
-	font-family: cursive;
+	font-family: VERDANA;
 	text-align: center;
 	margin: 0.5em 1em;
 	padding: 0.5em 1em;
