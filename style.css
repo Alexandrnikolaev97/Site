@@ -260,8 +260,12 @@ div.page_content_img img{
 }
 
 div.page_ps{
-	font-size: 1.5em;
 	text-align: center;
+}
+
+div.page_ps p{
+	font-family: cursive;
+	font-size: 1.5em;
 }
 
 div.under_write
