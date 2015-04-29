@@ -1,0 +1,282 @@
+a.Top_link{
+    text-decoration: none;
+    font-family: "IMPACT";
+    font-size: 18pt;
+    color: black;
+    font-weight: lighter;
+    overflow: hidden;
+}
+
+div.Top_link_content{
+    padding: 0.7vw 2vw 30vw 2vw;
+    margin-bottom: -30vw;
+}
+
+a.Top_link:hover{
+    color: black;
+}
+
+a.Top_link:hover div.Top_link_content{
+    background: #CCCCCC;
+}
+
+#current_href{
+
+}
+
+#current_href div.Top_link_content{
+    background: #CFCFEA;
+}
+
+#current_href:hover div.Top_link_content{
+    background: #CCCCCC;
+}
+
+a.VK_Link
+{
+    text-decoration: none;
+    font-family: "VERDANA";
+    color :#000000;
+    font-weight: lighter;
+    margin-left:3em;
+}
+
+div.Top_link_container{
+    align:center;
+    margin: 0 0 0.7em 0;
+    text-align: center;
+}
+
+.article_block{
+    margin: 1em 0.7em -20000px 0.7em;
+    overflow: hidden;
+    padding-bottom: 20000px;
+}
+
+a.article{
+    cursor: pointer;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+a.article:hover article.block {
+    opacity: 1.0;
+    color: black;
+}
+
+IMG.article_img{
+    height:  90%;
+    margin: 0 5% 0.5em 5%;
+}
+
+#Top_div{
+    margin: 0;
+    background:#FFFFFF;
+    border-bottom: 1px double #CCCCCC;
+    padding-top:0.75em;
+}
+
+#body_div{
+    vertical-align: top;
+    text-align: center;
+    margin: 0em 4vw;
+    background: #EEEEEE;
+    padding: 0;
+    overflow: hidden;
+}
+
+.block{
+    vertical-align: top;
+    padding-bottom: 2000px;
+    margin-bottom: -2000px;
+    min-height: 15.5em;
+    color: #202029;
+    opacity: 0.93;
+}
+
+.block_content{
+    padding: 1em 2em 1em 2em;
+}
+
+#block1{
+    background: #FFFF00;
+}
+
+#block2{
+    background: #20FF33;
+}
+
+#block3{
+    background: #70E0FF;
+}
+
+a.contact_href{
+    text-decoration: none;
+    font-family: "VERDANA";
+    font-size: 16pt;
+    color: black;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+a.contact_href:hover div.contact_href_hint{
+    opacity: 0.85;
+    background: #555555;
+}
+
+a.contact_href:hover div.contact_href_img_container{
+    opacity: 0.9;
+}
+
+#us{
+    margin: 0 0.2%;
+}
+
+.contact_href_container{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.contact_href_content{
+    margin-bottom: -4em;
+}
+
+.contact_href_img_container{
+    top: 0;
+}
+
+.contact_href_hint_container{
+    position: relative;
+    bottom: 4em;
+}
+
+IMG.contact_href_img{
+
+}
+.contact_href_hint{
+    text-align: center;
+    background: #888888;
+    margin: 0;
+    opacity: 0.6;
+    min-height: 4em;
+}
+
+div.contacts{
+    text-align: center;
+    padding: 1em 10% 0 10%;
+    overflow: hidden;
+}
+
+.contact-tittle{
+    color: #FFFFFF;
+    font-size: 1.4em;
+    margin-bottom: 0.4em;
+}
+
+.contact-hint{
+    color: #FFFFFF;
+    font-size: 1em;
+    font-family: VERDANA;
+}
+
+#logotype{
+    padding-left: 2em;
+}
+
+#contacts_grid{
+    text-align: center;
+}
+
+body{
+    background:#FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    font-family: "VERDANA";
+}
+td{
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    overflow: hidden;
+}
+tr{
+    margin:0;
+}
+
+li{
+    overflow: hidden;
+}
+
+#page_tittle
+{
+    font-style: normal;
+    font-variant: normal;
+    font-size: 14pt;
+    margin-bottom: 5em;
+    margin-top : 3em;
+    margin-left: 1.5em;
+    font-size:  22pt;
+    font-weight: lighter;
+}
+
+div.page_intro{
+    background: #FAFAFA;
+    font-family: VERDANA;
+    text-align: start;
+    font-size: 1.1em;
+    margin: 1vw 2vw;
+    padding: 1vw 2vw;
+}
+
+div.page_content{
+    font-family: VERDANA;
+    text-align: center;
+    margin: 1vw 2vw;
+    padding: 1vw 2vw;
+}
+
+div.page_content p{
+    text-align: start;
+}
+
+div.page_content_img{
+    text-align: center;
+    position: relative;
+    margin: 1em 10%;
+}
+
+div.page_content_img img{
+    max-width: 100%;
+}
+
+div.page_ps{
+    text-align: center;
+}
+
+div.page_ps p{
+    font-family: cursive;
+    font-size: 1.5em;
+}
+
+div.under_write
+{
+    margin-top: 2em;
+    margin-right: 10em;
+    font-family: "VERDANA";
+    font-size: 10pt;
+    text-align :right;
+    color: #888888;
+    padding: 0;
+    vertical-align: top;
+}
+
